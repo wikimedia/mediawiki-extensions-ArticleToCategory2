@@ -591,9 +591,10 @@ $messages['nn'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
-	'articletocategory2-create-category-under-category-button' => 'ତିଆରି',
+	'articletocategory2-create-category-under-category-button' => 'ଗଢ଼ନ୍ତୁ',
 );
 
 /** Polish (Polski)
