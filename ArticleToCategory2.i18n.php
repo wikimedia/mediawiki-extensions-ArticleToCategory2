@@ -770,6 +770,7 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Bilalokms
  * @author CnkALTDS
  * @author Emperyan
  * @author Karduelis
@@ -779,6 +780,8 @@ $messages['tr'] = array(
 	'articletocategory2-create-article-under-category-button' => 'Oluştur',
 	'articletocategory2-create-category-under-category-text' => 'Bu kategoriye bir kategori ekle',
 	'articletocategory2-create-category-under-category-button' => 'Oluştur',
+	'right-ArticleToCategory2' => 'Kategoriye sayfa ekleyin',
+	'right-ArticleToCategory2AddCat' => 'Kategoriye kategori ekleyin',
 );
 
 /** Ukrainian (Українська)
