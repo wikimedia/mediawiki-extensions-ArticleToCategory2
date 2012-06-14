@@ -64,7 +64,7 @@ $messages['arc'] = array(
 	'articletocategory2-create-category-under-category-button' => 'ܒܪܝ',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -110,7 +110,7 @@ $messages['be-tarask'] = array(
 	'right-ArticleToCategory2AddCat' => 'даданьне катэгорыяў у катэгорыі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -132,7 +132,7 @@ $messages['bn'] = array(
 	'right-ArticleToCategory2AddCat' => 'বিষয়শ্রেণীতে বিষয়শ্রেণী যোগ করুন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Gwendal
  * @author Y-M D
@@ -147,7 +147,7 @@ $messages['br'] = array(
 	'right-ArticleToCategory2AddCat' => "Ouzhpennañ ur rummad d'ar rummad-mañ",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -160,7 +160,7 @@ $messages['bs'] = array(
 	'right-ArticleToCategory2AddCat' => 'Dodavanje kategoriju u kategoriju',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Solde
  */
 $messages['ca'] = array(
@@ -173,7 +173,7 @@ $messages['ca'] = array(
 	'right-ArticleToCategory2AddCat' => 'Afegir una categoria a una categoria',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Jkjk
  * @author Mormegil
  */
@@ -238,7 +238,7 @@ $messages['eo'] = array(
 	'right-ArticleToCategory2AddCat' => 'Aldoni kategorion al kategorio',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Danke7
  * @author Fitoschido
  * @author Sanbec
@@ -261,7 +261,7 @@ $messages['fa'] = array(
 	'articletocategory2-create-category-under-category-button' => 'ایجاد',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Olli
  */
 $messages['fi'] = array(
@@ -272,7 +272,7 @@ $messages['fi'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Luo',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  */
@@ -286,7 +286,7 @@ $messages['fr'] = array(
 	'right-ArticleToCategory2AddCat' => 'Ajouter une catégorie à cette catégorie',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -352,7 +352,7 @@ $messages['hsb'] = array(
 	'right-ArticleToCategory2AddCat' => 'Kategoriju kategoriji přidać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -362,7 +362,7 @@ $messages['hu'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Létrehozás',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -389,7 +389,7 @@ $messages['id'] = array(
 	'right-ArticleToCategory2AddCat' => 'Tambahkan kategori ke dalam kategori',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -476,7 +476,7 @@ $messages['li'] = array(
 	'right-ArticleToCategory2AddCat' => "Doog 'n categorie bie bie dees categorie",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Ignas693
  */
@@ -501,7 +501,7 @@ $messages['mg'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Foronina',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -580,7 +580,7 @@ $messages['nl'] = array(
 	'right-ArticleToCategory2AddCat' => 'Categorie aan categorie toevoegen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Nghtwlkr
  */
 $messages['nn'] = array(
@@ -598,7 +598,7 @@ $messages['or'] = array(
 	'articletocategory2-create-category-under-category-button' => 'ଗଢ଼ନ୍ତୁ',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -633,7 +633,7 @@ $messages['ps'] = array(
 	'articletocategory2-create-category-under-category-button' => 'جوړول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -646,7 +646,7 @@ $messages['pt'] = array(
 	'right-ArticleToCategory2AddCat' => 'Adicionar uma categoria à categoria',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -657,7 +657,7 @@ $messages['pt-br'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Criar',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  */
 $messages['ro'] = array(
@@ -667,7 +667,7 @@ $messages['ro'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Creează',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -676,7 +676,7 @@ $messages['roa-tara'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Ccreje',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -696,7 +696,7 @@ $messages['rue'] = array(
 	'articletocategory2-create-article-under-category-button' => 'Створити',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -706,7 +706,7 @@ $messages['sr-ec'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Направи',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'articletocategory2-create-article-under-category-text' => 'Dodaj stranicu u ovu kategoriju',
 	'articletocategory2-create-article-under-category-button' => 'Napravi',
@@ -714,7 +714,7 @@ $messages['sr-el'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Napravi',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  * @author Tobulos1
  */
@@ -749,7 +749,7 @@ $messages['te'] = array(
 	'articletocategory2-create-category-under-category-button' => 'సృష్టించు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -785,7 +785,7 @@ $messages['tr'] = array(
 	'right-ArticleToCategory2AddCat' => 'Kategoriye kategori ekleyin',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -798,7 +798,7 @@ $messages['uk'] = array(
 	'right-ArticleToCategory2AddCat' => 'Додати категорію до категорії',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Kuailong
  * @author Steven0127
@@ -813,7 +813,7 @@ $messages['zh-hans'] = array(
 	'right-ArticleToCategory2AddCat' => '添加类别到类别',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Oapbtommy
  */
 $messages['zh-hant'] = array(
