@@ -64,6 +64,18 @@ $messages['arc'] = array(
 	'articletocategory2-create-category-under-category-button' => 'ܒܪܝ',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'articletocategory2-create-article-under-category-text' => 'এই শ্ৰেণীত এটা পৃষ্ঠা যোগ দিয়ক',
+	'articletocategory2-create-article-under-category-button' => 'সৃষ্টি কৰক',
+	'articletocategory2-create-category-under-category-text' => 'এই শ্ৰেণীত এটা শ্ৰেণী যোগ দিয়ক',
+	'articletocategory2-create-category-under-category-button' => 'সৃষ্টি কৰক',
+	'right-ArticleToCategory2' => 'পৃষ্ঠাখন শ্ৰেণীবন্ধন কৰক',
+	'right-ArticleToCategory2AddCat' => 'শ্ৰেণীত শ্ৰেণীসমূহ যোগ কৰক',
+);
+
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
