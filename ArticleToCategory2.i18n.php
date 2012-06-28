@@ -440,6 +440,18 @@ $messages['km'] = array(
 	'articletocategory2-create-category-under-category-button' => 'បង្កើត',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'articletocategory2-create-article-under-category-text' => '이 분류로 문서 더하기',
+	'articletocategory2-create-article-under-category-button' => '만들기',
+	'articletocategory2-create-category-under-category-text' => '이 분류로 문서 더하기',
+	'articletocategory2-create-category-under-category-button' => '만들기',
+	'right-ArticleToCategory2' => '분류로 문서 더하기',
+	'right-ArticleToCategory2AddCat' => '분류로 분류 더하기',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
