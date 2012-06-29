@@ -444,6 +444,7 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'articletocategory2-desc' => '해당 분류에 직접 새 문서 만들기를 허용하는 각 분류 문서의 입력 상자 넣기',
 	'articletocategory2-create-article-under-category-text' => '이 분류로 문서 더하기',
 	'articletocategory2-create-article-under-category-button' => '만들기',
 	'articletocategory2-create-category-under-category-text' => '이 분류로 문서 더하기',
