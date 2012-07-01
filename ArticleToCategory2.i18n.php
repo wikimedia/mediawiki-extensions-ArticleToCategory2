@@ -108,7 +108,7 @@ $messages['bar'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Erstöin',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -212,7 +212,7 @@ $messages['de'] = array(
 	'right-ArticleToCategory2AddCat' => 'Kategorie zu einer Kategorie hinzufügen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -311,7 +311,7 @@ $messages['frp'] = array(
 	'right-ArticleToCategory2AddCat' => 'Apondre la catègorie a la catègorie',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -351,7 +351,7 @@ $messages['he'] = array(
 	'right-ArticleToCategory2AddCat' => 'הוסף קטגוריה לקטגוריה',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -714,7 +714,7 @@ $messages['ru'] = array(
 	'right-ArticleToCategory2AddCat' => 'Добавить категорию в категорию',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
