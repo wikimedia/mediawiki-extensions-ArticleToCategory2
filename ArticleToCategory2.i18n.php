@@ -84,7 +84,7 @@ $messages['az'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Yarat',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -570,7 +570,7 @@ $messages['ms'] = array(
 	'right-ArticleToCategory2AddCat' => 'Menambahkan kategori kepada kategori',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -579,7 +579,7 @@ $messages['myv'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Шкамс',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
