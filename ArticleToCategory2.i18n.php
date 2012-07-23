@@ -203,7 +203,7 @@ $messages['cs'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'articletocategory2-desc' => 'Fügt jeder Kategorieseite ein Eingabefeld hinzu, über das in diese Kategorie automatisch einzuordnende Artikel erstellt werden können',
+	'articletocategory2-desc' => 'Ergänzt Kategorieseiten um ein Eingabefeld zum Erstellen von Artikeln, die automatisch in die betreffende Kategorie eingeordnet werden',
 	'articletocategory2-create-article-under-category-text' => 'Eine Seite zu dieser Kategorie hinzufügen',
 	'articletocategory2-create-article-under-category-button' => 'Erstellen',
 	'articletocategory2-create-category-under-category-text' => 'Eine Kategorie zu dieser Kategorie hinzufügen',
