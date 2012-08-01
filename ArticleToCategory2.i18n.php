@@ -212,6 +212,14 @@ $messages['de'] = array(
 	'right-ArticleToCategory2AddCat' => 'Kategorie zu einer Kategorie hinzufügen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'articletocategory2-create-article-under-category-button' => 'Vıraze',
+	'articletocategory2-create-category-under-category-button' => 'Vıraze',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
