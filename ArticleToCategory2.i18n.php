@@ -438,6 +438,18 @@ $messages['ja'] = array(
 	'right-ArticleToCategory2AddCat' => 'カテゴリにカテゴリを追加',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'articletocategory2-create-article-under-category-text' => 'გვერდის ამ კატეგორიაში დამატება',
+	'articletocategory2-create-article-under-category-button' => 'შექმნა',
+	'articletocategory2-create-category-under-category-text' => 'ამ კატეგორიის კატეგორიაში დამატება',
+	'articletocategory2-create-category-under-category-button' => 'შექმნა',
+	'right-ArticleToCategory2' => 'გვერდის დამატება კატეგორიაში',
+	'right-ArticleToCategory2AddCat' => 'კატეგორიის დამატება კატეგორიაში',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -727,6 +739,14 @@ $messages['ru'] = array(
  */
 $messages['rue'] = array(
 	'articletocategory2-create-article-under-category-button' => 'Створити',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'articletocategory2-create-article-under-category-button' => 'තනන්න',
+	'articletocategory2-create-category-under-category-button' => 'තනන්න',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
