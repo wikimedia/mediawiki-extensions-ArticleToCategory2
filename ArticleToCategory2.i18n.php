@@ -739,6 +739,7 @@ $messages['ru'] = array(
  */
 $messages['rue'] = array(
 	'articletocategory2-create-article-under-category-button' => 'Створити',
+	'articletocategory2-create-category-under-category-button' => 'Створити',
 );
 
 /** Sinhala (සිංහල)
