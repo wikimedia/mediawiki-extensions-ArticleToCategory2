@@ -481,7 +481,7 @@ $messages['ksh'] = array(
 	'articletocategory2-create-article-under-category-text' => 'Donn en Sigg en heh di Saachjropp eren',
 	'articletocategory2-create-article-under-category-button' => 'Aanlääje',
 	'articletocategory2-create-category-under-category-text' => 'En Saachjropp en heh di Saachjropp eren donn',
-	'articletocategory2-create-category-under-category-button' => 'Aanläje',
+	'articletocategory2-create-category-under-category-button' => 'Aanlääje',
 	'right-ArticleToCategory2' => 'Ene Atikel en en Saachjrop donn',
 	'right-ArticleToCategory2AddCat' => 'En Saachjropp en en Saachjrop donn',
 );
