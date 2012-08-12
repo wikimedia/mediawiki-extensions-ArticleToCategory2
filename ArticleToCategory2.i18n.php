@@ -746,8 +746,12 @@ $messages['rue'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'articletocategory2-create-article-under-category-text' => 'මෙම ප්‍රවර්ගය වෙත පිටුවක් එක් කරන්න',
 	'articletocategory2-create-article-under-category-button' => 'තනන්න',
+	'articletocategory2-create-category-under-category-text' => 'මෙම ප්‍රවර්ගය වෙත ප්‍රවර්ගයක් එක් කරන්න',
 	'articletocategory2-create-category-under-category-button' => 'තනන්න',
+	'right-ArticleToCategory2' => 'ප්‍රවර්ගය වෙත පිටුව එක් කරන්න',
+	'right-ArticleToCategory2AddCat' => 'ප්‍රවර්ගය වෙත ප්‍රවර්ගය එක් කරන්න',
 );
 
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
@@ -792,6 +796,7 @@ $messages['ta'] = array(
 	'articletocategory2-create-article-under-category-button' => 'உருவாக்கவும்',
 	'articletocategory2-create-category-under-category-text' => 'இப்பகுப்பில் ஒரு பகுப்பைச் சேர்க்கவும்',
 	'articletocategory2-create-category-under-category-button' => 'உருவாக்கவும்',
+	'right-ArticleToCategory2' => 'பக்கத்தைப் பகுப்பில் சேர்க்கவும்',
 );
 
 /** Telugu (తెలుగు)
