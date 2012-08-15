@@ -319,6 +319,14 @@ $messages['frp'] = array(
 	'right-ArticleToCategory2AddCat' => 'Apondre la catègorie a la catègorie',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'articletocategory2-create-article-under-category-button' => 'Cruthaigh',
+	'articletocategory2-create-category-under-category-button' => 'Cruthaigh',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
