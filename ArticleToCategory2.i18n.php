@@ -273,6 +273,14 @@ $messages['es'] = array(
 	'right-ArticleToCategory2AddCat' => 'Añadir categoría a otra',
 );
 
+/** Basque (euskara)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['eu'] = array(
+	'articletocategory2-create-article-under-category-button' => 'Sortu',
+	'articletocategory2-create-category-under-category-button' => 'Sortua',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
@@ -598,6 +606,19 @@ $messages['ms'] = array(
 	'right-ArticleToCategory2AddCat' => 'Menambahkan kategori kepada kategori',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'articletocategory2-desc' => "Iddaħħal ''inputbox'' f'kull kategorija li tippermetti l-ħolqien ta' paġna ġdida direttament fit-tali kategorija",
+	'articletocategory2-create-article-under-category-text' => "Żid paġna f'din il-kategorija",
+	'articletocategory2-create-article-under-category-button' => 'Oħloq',
+	'articletocategory2-create-category-under-category-text' => "Żid kategorija f'din il-kategorija",
+	'articletocategory2-create-category-under-category-button' => 'Oħloq',
+	'right-ArticleToCategory2' => "Iżid paġni f'kategorija",
+	'right-ArticleToCategory2AddCat' => "Iżid kategoriji f'kategoriji",
+);
+
 /** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
@@ -794,6 +815,16 @@ $messages['sv'] = array(
 	'right-ArticleToCategory2AddCat' => 'Lägg kategori till kategori',
 );
 
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'articletocategory2-create-article-under-category-button' => 'Anzisha',
+	'articletocategory2-create-category-under-category-text' => 'Ongeza jamii katika hi jamii',
+	'articletocategory2-create-category-under-category-button' => 'Anzisha',
+	'right-ArticleToCategory2' => 'Ongeza kurasa katika jamii',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author TRYPPN
@@ -863,6 +894,22 @@ $messages['uk'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Створити',
 	'right-ArticleToCategory2' => 'Додати сторінку до категорії',
 	'right-ArticleToCategory2AddCat' => 'Додати категорію до категорії',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['vi'] = array(
+	'articletocategory2-create-article-under-category-button' => 'Tạo',
+	'articletocategory2-create-category-under-category-button' => 'Tạo',
+);
+
+/** Yiddish (ייִדיש)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['yi'] = array(
+	'articletocategory2-create-article-under-category-button' => 'שאַפֿן',
+	'articletocategory2-create-category-under-category-button' => 'שאַפֿן',
 );
 
 /** Simplified Chinese (‪中文（简体）‬)
