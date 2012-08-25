@@ -817,10 +817,11 @@ $messages['sv'] = array(
 
 /** Swahili (Kiswahili)
  * @author Kwisha
+ * @author Lloffiwr
  */
 $messages['sw'] = array(
 	'articletocategory2-create-article-under-category-button' => 'Anzisha',
-	'articletocategory2-create-category-under-category-text' => 'Ongeza jamii katika hi jamii',
+	'articletocategory2-create-category-under-category-text' => 'Ongeza jamii katika jamii hii',
 	'articletocategory2-create-category-under-category-button' => 'Anzisha',
 	'right-ArticleToCategory2' => 'Ongeza kurasa katika jamii',
 );
