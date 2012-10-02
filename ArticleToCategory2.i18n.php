@@ -108,7 +108,7 @@ $messages['bar'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Erstöin',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -502,7 +502,7 @@ $messages['ksh'] = array(
 	'right-ArticleToCategory2AddCat' => 'En Saachjropp en en Saachjrop donn',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author Welathêja
  */
 $messages['ku-latn'] = array(
@@ -628,7 +628,7 @@ $messages['myv'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Шкамс',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -654,7 +654,7 @@ $messages['nl'] = array(
 	'right-ArticleToCategory2AddCat' => 'Categorie aan categorie toevoegen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Nghtwlkr
  */
 $messages['nn'] = array(
@@ -783,7 +783,7 @@ $messages['si'] = array(
 	'right-ArticleToCategory2AddCat' => 'ප්‍රවර්ගය වෙත ප්‍රවර්ගය එක් කරන්න',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -793,7 +793,7 @@ $messages['sr-ec'] = array(
 	'articletocategory2-create-category-under-category-button' => 'Направи',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'articletocategory2-create-article-under-category-text' => 'Dodaj stranicu u ovu kategoriju',
 	'articletocategory2-create-article-under-category-button' => 'Napravi',
@@ -913,7 +913,7 @@ $messages['yi'] = array(
 	'articletocategory2-create-category-under-category-button' => 'שאַפֿן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Kuailong
  * @author Steven0127
@@ -928,7 +928,7 @@ $messages['zh-hans'] = array(
 	'right-ArticleToCategory2AddCat' => '添加类别到类别',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Oapbtommy
  */
 $messages['zh-hant'] = array(
