@@ -3,11 +3,11 @@
  === MediaWiki Extension: Add Article to Category 2 ===
  * @file
  * @ingroup Extensions
- * @version 1.0
+ * @version 1.1
  * @author Liang Chen <anything@liang-chen.com> (original code)
  * @author Julien Devincre (exclude categories)
  * @author Cynthia Mattingly - Marketing Factory Consulting (i18n, adding category)
- * @author Mikael Lindmark <mikael.lindmark@ladok.umu.se> (category adding optional, input check)
+ * @author Mikael Lindmark <mikael.lindmark@umu.se> (category adding optional, input check)
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 3.0 or later
  
 	This program is free software: you can redistribute it and/or modify
@@ -52,13 +52,14 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Add Article to Category 2',
 	'descriptionmsg' => 'articletocategory2-desc',
-	'version' => '1.0',
+	'version' => '1.1',
 	'author' => array(
 		'[http://www.mediawiki.org/wiki/User:BiGreat Liang Chen \'BiGreat\'] (original code)',
 		'Julien Devincre (exclude categories)',
 		'[http://www.mediawiki.org/wiki/User:Cm Cynthia Mattingly] (i18n, adding category)',
 		'[http://www.mediawiki.org/wiki/User:MikaelLindmark Mikael Lindmark] (adding options, input check)'),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:ArticleToCategory2'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:ArticleToCategory2',
+    'license-name' => 'GPL-3.0+'
 );
 
 /*** Hook functions ***/
@@ -153,10 +154,10 @@ function wfCategoryChange( $catpage ) {
 		}
 	}
 
-	$boxtext  = wfMsg( 'articletocategory2-create-article-under-category-text' );
-	$btext =    wfMsg( 'articletocategory2-create-article-under-category-button' );
-	$boxtext2 = wfMsg( 'articletocategory2-create-category-under-category-text' );
-	$btext2 =   wfMsg( 'articletocategory2-create-category-under-category-button' );
+	$boxtext  = wfMessage( 'articletocategory2-create-article-under-category-text' )->text();
+	$btext =    wfMessage( 'articletocategory2-create-article-under-category-button' )->text();
+	$boxtext2 = wfMessage( 'articletocategory2-create-category-under-category-text' )->text();
+	$btext2 =   wfMessage( 'articletocategory2-create-category-under-category-button' )->text();
  
 	$cattitle = $wgContLang->getNsText( NS_CATEGORY );
  
