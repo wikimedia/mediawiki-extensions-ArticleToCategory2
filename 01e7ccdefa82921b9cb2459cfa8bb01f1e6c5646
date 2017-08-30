@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e7eab26_7b915949",
+        "filename": "ArticleToCategory2.hooks.php",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4064
+      },
+      "writtenOn": "2017-08-30T15:49:07Z",
+      "side": 1,
+      "message": "This class name is incorrect, it should be LastModifiedHooks",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "01e7ccdefa82921b9cb2459cfa8bb01f1e6c5646",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
