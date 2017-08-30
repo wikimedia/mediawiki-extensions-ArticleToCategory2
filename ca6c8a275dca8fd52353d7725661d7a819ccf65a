@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e7eab26_bbe821a4",
+        "filename": "ArticleToCategory2.hooks.php",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4064
+      },
+      "writtenOn": "2017-08-30T16:03:06Z",
+      "side": 1,
+      "message": "Ugh, there are two class names for this class in extension.json, but seeing the name of this extension, the class should be named ArticleToCategory2Hooks instead.",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "ca6c8a275dca8fd52353d7725661d7a819ccf65a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e7eab26_fb41c9ac",
+        "filename": "extension.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4064
+      },
+      "writtenOn": "2017-08-30T16:03:06Z",
+      "side": 1,
+      "message": "Incorrectly named class, should be ArticleToCategory2Hooks instead",
+      "range": {
+        "startLine": 44,
+        "startChar": 26,
+        "endLine": 44,
+        "endChar": 43
+      },
+      "revId": "ca6c8a275dca8fd52353d7725661d7a819ccf65a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e7eab26_9b4c45e5",
+        "filename": "extension.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 4064
+      },
+      "writtenOn": "2017-08-30T16:03:06Z",
+      "side": 1,
+      "message": "Same",
+      "range": {
+        "startLine": 45,
+        "startChar": 23,
+        "endLine": 45,
+        "endChar": 40
+      },
+      "revId": "ca6c8a275dca8fd52353d7725661d7a819ccf65a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
