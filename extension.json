@@ -1,0 +1,48 @@
+{
+	"name": "ArticleToCategory2",
+	"version": "1.1",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:MikaelLindmark Mikael Lindmark]",
+		"Liang Chen",
+		"Julien Devincre",
+		"Cynthia Mattingly"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ArticleToCategory2",
+	"descriptionmsg": "articletocategory2-desc",
+	"license-name": "GPL-2.0+",
+	"AutoloadClasses": {
+		"ArticleToCategory2Hooks": "ArticleToCategory2.hooks.php"
+	},
+	"MessagesDirs": {
+		"ArticleToCategory2": [
+			"i18n"
+		]
+	},
+	"config": {
+		"ArticleToCategory2ConfigBlacklist": {
+			"value": false,
+			"description": "Set this flag to true to enable the category blacklist in \"MediaWiki:Add Article to Category 2 excluded categories\" page (you need to create this page first)"
+		}
+	},
+	"SpecialPages": {
+		"ArticleToCategory2": "ArticleToCategory2"
+	},
+	"ExtensionMessagesFiles": {
+		"ArticleToCategory2": "ArticleToCategory2.i18n.php"
+	},
+	"AvailableRights": [
+		"author",
+		"authorprotect"
+	],
+	"GroupPermissions": {
+		"*": {
+			"ArticleToCategory2": true,
+			"ArticleToCategory2AddCat": false
+		}
+	},
+	"Hooks": {
+		"EditFormPreloadText": "LastModifiedHooks::wfAddCategory",
+		"CategoryPageView": "LastModifiedHooks::wfCategoryChange"
+	},
+	"manifest_version": 2
+}
