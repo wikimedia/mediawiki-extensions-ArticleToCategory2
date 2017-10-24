@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giro720"
+		]
+	},
+	"articletocategory2-desc": "Coloca uma caixa em cada página de categoria, que permite criar uma página nova diretamente nessa categoria",
+	"articletocategory2-create-article-under-category-text": "Adicionar uma página a esta categoria",
+	"articletocategory2-create-article-under-category-button": "Criar",
+	"articletocategory2-create-category-under-category-text": "Adicionar uma categoria a esta categoria",
+	"articletocategory2-create-category-under-category-button": "Criar"
+}

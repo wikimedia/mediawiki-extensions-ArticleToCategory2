@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jkjk",
+			"Mormegil"
+		]
+	},
+	"articletocategory2-desc": "Přidává na stránku každé kategorie rámeček umožňující založení nové stránky přímo v kategorii",
+	"articletocategory2-create-article-under-category-text": "Přidat stránku do této kategorie",
+	"articletocategory2-create-article-under-category-button": "Vytvořit",
+	"articletocategory2-create-category-under-category-text": "Přidat kategorii do této kategorie",
+	"articletocategory2-create-category-under-category-button": "Vytvořit",
+	"right-ArticleToCategory2": "Přidat stránku do kategorie",
+	"right-ArticleToCategory2AddCat": "Přidat kategorii do kategorie"
+}

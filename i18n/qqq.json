@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko"
+		]
+	},
+	"articletocategory2-desc": "{{desc|name=ArticleToCategory2|url=https://www.mediawiki.org/wiki/Extension:ArticleToCategory2}}",
+	"articletocategory2-create-article-under-category-text": "A tooltip message",
+	"articletocategory2-create-article-under-category-button": "A button text\n{{Identical|Create}}",
+	"articletocategory2-create-category-under-category-text": "A tooltip message",
+	"articletocategory2-create-category-under-category-button": "A button text\n{{Identical|Create}}",
+	"right-ArticleToCategory2": "{{doc-right|ArticleToCategory2}}",
+	"right-ArticleToCategory2AddCat": "{{doc-right|ArticleToCategory2AddCat}}"
+}

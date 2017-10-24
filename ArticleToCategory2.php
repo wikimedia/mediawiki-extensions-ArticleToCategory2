@@ -69,8 +69,7 @@ $wgHooks['CategoryPageView'][] = 'wfCategoryChange';
 $dir = dirname(__FILE__) . '/';
  
 /*** Internationalisation ***/
-$wgExtensionMessagesFiles['ArticleToCategory2'] = $dir . 'ArticleToCategory2.i18n.php';
-
+$wgMessagesDirs['ArticleToCategory2'] = $dir . 'i18n';
 
  
 /******************************

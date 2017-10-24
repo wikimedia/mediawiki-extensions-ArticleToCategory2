@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"IAlex"
+		]
+	},
+	"articletocategory2-desc": "Ajoute une boîte d'entrée sur chaque page de catégorie permettant la création d'une nouvelle page directement dans cette catégorie",
+	"articletocategory2-create-article-under-category-text": "Ajouter une page à cette catégorie",
+	"articletocategory2-create-article-under-category-button": "Créer",
+	"articletocategory2-create-category-under-category-text": "Ajouter une catégorie à cette catégorie",
+	"articletocategory2-create-category-under-category-button": "Créer",
+	"right-ArticleToCategory2": "Ajouter la page à la catégorie",
+	"right-ArticleToCategory2AddCat": "Ajouter une catégorie à cette catégorie"
+}
