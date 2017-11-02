@@ -24,12 +24,6 @@
 			"description": "Set this flag to true to enable the category blacklist in \"MediaWiki:Add Article to Category 2 excluded categories\" page (you need to create this page first)"
 		}
 	},
-	"SpecialPages": {
-		"ArticleToCategory2": "ArticleToCategory2"
-	},
-	"ExtensionMessagesFiles": {
-		"ArticleToCategory2": "ArticleToCategory2.i18n.php"
-	},
 	"AvailableRights": [
 		"author",
 		"authorprotect"
@@ -41,7 +35,7 @@
 		}
 	},
 	"Hooks": {
-		"ArticleToCategory2Hooks": "ArticleToCategory2Hooks::wfAddCategory",
+		"EditFormPreloadText": "ArticleToCategory2Hooks::wfAddCategory",
 		"CategoryPageView": "ArticleToCategory2Hooks::wfCategoryChange"
 	},
 	"manifest_version": 2
