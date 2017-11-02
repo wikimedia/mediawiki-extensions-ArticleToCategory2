@@ -3,7 +3,7 @@
  === MediaWiki Extension: Add Article to Category 2 ===
  * @file
  * @ingroup Extensions
- * @version 1.1
+ * @version 1.2
  * @author Liang Chen <anything@liang-chen.com> (original code)
  * @author Julien Devincre (exclude categories)
  * @author Cynthia Mattingly - Marketing Factory Consulting (i18n, adding category)

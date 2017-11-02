@@ -1,11 +1,11 @@
 {
 	"name": "ArticleToCategory2",
-	"version": "1.1",
+	"version": "1.2",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:MikaelLindmark Mikael Lindmark]",
-		"Liang Chen",
+		"[https://www.mediawiki.org/wiki/User:BiGreat Liang Chen]",
 		"Julien Devincre",
-		"Cynthia Mattingly"
+		"[https://www.mediawiki.org/wiki/User:Cm~mediawikiwiki Cynthia Mattingly]"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:ArticleToCategory2",
 	"descriptionmsg": "articletocategory2-desc",
