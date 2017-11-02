@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e5a8fde_383f11d5",
+        "filename": "extension.json",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 161
+      },
+      "writtenOn": "2017-11-02T08:39:34Z",
+      "side": 1,
+      "message": "There was never a special page in this extension",
+      "range": {
+        "startLine": 27,
+        "startChar": 1,
+        "endLine": 29,
+        "endChar": 3
+      },
+      "revId": "27a39b53c6d47c9c7ce7a2aae0145f744e721e98",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e5a8fde_d8827d97",
+        "filename": "extension.json",
+        "patchSetId": 7
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 161
+      },
+      "writtenOn": "2017-11-02T08:39:34Z",
+      "side": 1,
+      "message": "Wrong rebase, this global was replaced in I33adaab427d4bfdfd4ae1749ece97850767a803f",
+      "range": {
+        "startLine": 30,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 3
+      },
+      "revId": "27a39b53c6d47c9c7ce7a2aae0145f744e721e98",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
