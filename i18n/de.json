@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"FriedhelmW"
 		]
 	},
-	"articletocategory2-desc": "Ergänzt Kategorieseiten um ein Eingabefeld zum Erstellen von Artikeln, die automatisch in die betreffende Kategorie eingeordnet werden",
+	"articletocategory2-desc": "Ergänzt Kategorieseiten um ein Eingabefeld zum Erstellen von Seiten, die automatisch in die betreffende Kategorie eingeordnet werden",
 	"articletocategory2-create-article-under-category-text": "Eine Seite zu dieser Kategorie hinzufügen",
 	"articletocategory2-create-article-under-category-button": "Erstellen",
 	"articletocategory2-create-category-under-category-text": "Eine Kategorie zu dieser Kategorie hinzufügen",
 	"articletocategory2-create-category-under-category-button": "Erstellen",
-	"right-ArticleToCategory2": "Artikel zu einer Kategorie hinzufügen",
+	"right-ArticleToCategory2": "Seite zu einer Kategorie hinzufügen",
 	"right-ArticleToCategory2AddCat": "Kategorie zu einer Kategorie hinzufügen"
 }
