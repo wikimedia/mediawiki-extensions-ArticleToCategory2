@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
-	"articletocategory2-desc": "הוספת תיבת קלט בכל דף קטגוריה המאפשר יצירת דף חדש בקטגוריה זאת ישירות",
+	"articletocategory2-desc": "הוספת תיבת קלט בכל דף קטגוריה, המאפשרת ליצור דף חדש שיתווסף ישירות לקטגוריה זו",
 	"articletocategory2-create-article-under-category-text": "הוספת דף זה לקטגוריה",
 	"articletocategory2-create-article-under-category-button": "יצירה",
 	"articletocategory2-create-category-under-category-text": "הוספת קטגוריה לקטגוריה זו",
