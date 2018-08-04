@@ -28,8 +28,6 @@
 		}
 	},
 	"AvailableRights": [
-		"author",
-		"authorprotect",
 		"ArticleToCategory2",
 		"ArticleToCategory2AddCat"
 	],
