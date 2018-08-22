@@ -30,7 +30,7 @@ class ArticleToCategory2Hooks {
 		global $wgRequest;
 
 		$excludedCategories = [];
-		$specialcatpage='Add Article to Category 2 excluded categories';
+		$specialcatpage = 'Add Article to Category 2 excluded categories';
 
 		if ( $wgRequest->getVal( 'action' ) == 'edit' ) {
 			return true;
@@ -42,7 +42,7 @@ class ArticleToCategory2Hooks {
 				$changed = false;
 				$c = explode( "\n", $content );
 				foreach ( $c as $entry ) {
-					if ( $entry[0]==';' ) {
+					if ( $entry[0] == ';' ) {
 						$cat = trim( substr( $entry, 1 ) );
 						$excludedCategories[] = $cat;
 					}
@@ -52,7 +52,7 @@ class ArticleToCategory2Hooks {
 			echo ( " Page : \"" . $specialcatpage . "\" does not exist !" );
 		}
 		return $excludedCategories;
-}
+	}
 
 	/**
 	 * Generate the input box
@@ -70,7 +70,7 @@ class ArticleToCategory2Hooks {
 			return true;
 		}
 		if ( $wgArticleToCategory2ConfigBlacklist ) {
-			$excludedCategories =self::getExcludedCategories();
+			$excludedCategories = self::getExcludedCategories();
 			foreach ( $excludedCategories as $value ) {
 				if ( $catpage->mTitle->getText() == $value ) {
 					return true;
@@ -78,14 +78,14 @@ class ArticleToCategory2Hooks {
 			}
 		}
 	$boxtext  = wfMessage( 'articletocategory2-create-article-under-category-text' )->escaped();
-	$btext =    wfMessage( 'articletocategory2-create-article-under-category-button' )->escaped();
+	$btext = wfMessage( 'articletocategory2-create-article-under-category-button' )->escaped();
 	$boxtext2 = wfMessage( 'articletocategory2-create-category-under-category-text' )->escaped();
-	$btext2 =   wfMessage( 'articletocategory2-create-category-under-category-button' )->escaped();
+	$btext2 = wfMessage( 'articletocategory2-create-category-under-category-button' )->escaped();
 
 	$cattitle = $wgContLang->getNsText( NS_CATEGORY );
 
 	/*** javascript blocks ***/
-	$formstart=<<<FORMSTART
+	$formstart = <<<FORMSTART
 <!-- Add Article Extension Start -->
 <script type="text/javascript">
 function clearText(thefield) {
@@ -126,7 +126,7 @@ function isemptyx(form) {
 		<input type='submit' name="create" class="createboxButton" value="{$btext}"/>
 	</form>
 FORMSTART;
-	$formcategory=<<<FORMCATEGORY
+	$formcategory = <<<FORMCATEGORY
 	<form name="createbox" action="{$action}" onsubmit="return isemptyx(this);" method="get" class="createbox">
 		<input type='hidden' name="action" value="edit">
 		<input type='hidden' name="new" value="1">
@@ -136,7 +136,7 @@ FORMSTART;
 		<input type='submit' name="create" class="createboxButton" value="{$btext2}"/>
 	</form>
 FORMCATEGORY;
-	$formend=<<<FORMEND
+	$formend = <<<FORMEND
 	</td>
 	</tr>
 </table>
@@ -145,8 +145,8 @@ FORMEND;
 		/*** javascript blocks end ***/
 		$wgOut->addHTML( $formstart );
 		if ( $wgUser->isAllowed( 'ArticleToCategory2AddCat' ) ) {
-		$wgOut->addHTML( $formcategory );
-	}
+			$wgOut->addHTML( $formcategory );
+		}
 		$wgOut->addHTML( $formend );
 		return true;
 	}
