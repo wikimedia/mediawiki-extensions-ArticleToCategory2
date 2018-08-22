@@ -6,9 +6,6 @@
 		<exclude name="MediaWiki.Commenting.LicenseComment.InvalidLicenseTag" />
 		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
 		<exclude name="MediaWiki.Usage.SuperGlobalsUsage.SuperGlobals" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeControlStructureBrace.BraceOnNewLine" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceyParenthesis.SingleSpaceAfterOpenParenthesis" />
-		<exclude name="MediaWiki.WhiteSpace.SpaceyParenthesis.SingleSpaceBeforeCloseParenthesis" />
 		<exclude name="Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter" />
 		<exclude name="Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore" />
 		<exclude name="Squiz.WhiteSpace.OperatorSpacing.SpacingAfter" />

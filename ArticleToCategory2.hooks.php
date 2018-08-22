@@ -49,7 +49,7 @@ class ArticleToCategory2Hooks {
 				}
 			}
 		} else {
-			echo (" Page : \"" . $specialcatpage . "\" does not exist !");
+			echo ( " Page : \"" . $specialcatpage . "\" does not exist !" );
 		}
 		return $excludedCategories;
 }
@@ -65,9 +65,8 @@ class ArticleToCategory2Hooks {
 			$wgOut, $wgScript, $wgContLang, $wgUser;
 			$action = htmlspecialchars( $wgScript );
 		if ( !$catpage->mTitle->quickUserCan( 'edit' )
-			|| !$catpage->mTitle->quickUserCan( 'create')
-			|| !$wgUser->isAllowed( 'ArticleToCategory2') )
-		{
+			|| !$catpage->mTitle->quickUserCan( 'create' )
+			|| !$wgUser->isAllowed( 'ArticleToCategory2' ) ) {
 			return true;
 		}
 		if ( $wgArticleToCategory2ConfigBlacklist ) {
