@@ -29,7 +29,7 @@ class ArticleToCategory2Hooks {
 	public static function getExcludedCategories() {
 		global $wgRequest;
 
-		$excludedCategories = array();
+		$excludedCategories = [];
 		$specialcatpage='Add Article to Category 2 excluded categories';
 
 		if ( $wgRequest->getVal( 'action' ) == 'edit' ) {
