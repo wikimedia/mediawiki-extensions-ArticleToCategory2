@@ -78,10 +78,10 @@ class ArticleToCategory2Hooks {
 				}
 			}
 		}
-	$boxtext  = wfMessage( 'articletocategory2-create-article-under-category-text' )->text();
-	$btext =    wfMessage( 'articletocategory2-create-article-under-category-button' )->text();
-	$boxtext2 = wfMessage( 'articletocategory2-create-category-under-category-text' )->text();
-	$btext2 =   wfMessage( 'articletocategory2-create-category-under-category-button' )->text();
+	$boxtext  = wfMessage( 'articletocategory2-create-article-under-category-text' )->escaped();
+	$btext =    wfMessage( 'articletocategory2-create-article-under-category-button' )->escaped();
+	$boxtext2 = wfMessage( 'articletocategory2-create-category-under-category-text' )->escaped();
+	$btext2 =   wfMessage( 'articletocategory2-create-category-under-category-button' )->escaped();
 
 	$cattitle = $wgContLang->getNsText( NS_CATEGORY );
 
