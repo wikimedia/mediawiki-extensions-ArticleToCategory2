@@ -20,12 +20,12 @@ class ArticleToCategory2Hooks {
 		return true;
 	}
 
-	/******************************
+	/**
 	 * Function to get the excluded categories list (blacklist)
 	 * the list is retrieved from Add Article to Category 2 excluded categories page.
-	*
-	* @return string $excludedCategories
-	******************************/
+	 *
+	 * @return string $excludedCategories
+	 */
 	public static function getExcludedCategories() {
 		global $wgRequest;
 
@@ -54,12 +54,12 @@ class ArticleToCategory2Hooks {
 		return $excludedCategories;
 }
 
-	/******************************
-	* Generate the input box
-	*
-	* @param string $catpage The category article
-	* @return bool true to do the default behavior of CategoryPage::view
-	******************************/
+	/**
+	 * Generate the input box
+	 *
+	 * @param string $catpage The category article
+	 * @return bool true to do the default behavior of CategoryPage::view
+	 */
 	public static function wfCategoryChange( $catpage ) {
 		global $wgArticleToCategory2ConfigBlacklist,
 			$wgOut, $wgScript, $wgContLang, $wgUser;

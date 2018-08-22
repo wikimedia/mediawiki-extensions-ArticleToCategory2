@@ -3,10 +3,6 @@
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="Generic.Files.LineLength.TooLong" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
-		<exclude name="MediaWiki.Commenting.FunctionComment.SyntaxAlignedDocClose" />
-		<exclude name="MediaWiki.Commenting.FunctionComment.SyntaxAlignedDocStar" />
-		<exclude name="MediaWiki.Commenting.FunctionComment.SyntaxCloseTag" />
-		<exclude name="MediaWiki.Commenting.FunctionComment.SyntaxOpenTag" />
 		<exclude name="MediaWiki.Commenting.LicenseComment.InvalidLicenseTag" />
 		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
 		<exclude name="MediaWiki.Usage.SuperGlobalsUsage.SuperGlobals" />
