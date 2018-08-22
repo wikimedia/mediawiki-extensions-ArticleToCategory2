@@ -71,7 +71,7 @@ class ArticleToCategory2Hooks {
 			return true;
 		}
 		if ( $wgArticleToCategory2ConfigBlacklist ) {
-			$excludedCategories=self::getExcludedCategories();
+			$excludedCategories =self::getExcludedCategories();
 			foreach ( $excludedCategories as $value ) {
 				if ( $catpage->mTitle->getText() == $value ) {
 					return true;
