@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Olli"
+			"Olli",
+			"01miki10"
 		]
 	},
 	"articletocategory2-desc": "Laittaa syöttökentän jokaiselle luokkasivulle, joka sallii uuden sivun luonnin suoraan kyseiseen luokkaan",
 	"articletocategory2-create-article-under-category-text": "Lisää sivu tähän luokkaan",
 	"articletocategory2-create-article-under-category-button": "Luo",
 	"articletocategory2-create-category-under-category-text": "Lisää luokka tähän luokkaan",
-	"articletocategory2-create-category-under-category-button": "Luo"
+	"articletocategory2-create-category-under-category-button": "Luo",
+	"right-ArticleToCategory2": "Lisätä sivu luokkaan",
+	"right-ArticleToCategory2AddCat": "Lisätä luokka luokkaan"
 }
