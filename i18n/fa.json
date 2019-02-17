@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mjbmr"
+			"Mjbmr",
+			"Amirsara"
 		]
 	},
 	"articletocategory2-create-article-under-category-button": "ایجاد",
-	"articletocategory2-create-category-under-category-button": "ایجاد"
+	"articletocategory2-create-category-under-category-button": "ایجاد",
+	"right-ArticleToCategory2": "افزودن صفحات از رده:"
 }
