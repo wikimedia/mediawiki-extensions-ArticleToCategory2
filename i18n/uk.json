@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Тест"
+			"Тест",
+			"Vlad5250"
 		]
 	},
 	"articletocategory2-desc": "Додає поле вводу на сторінці кожної категорії, що дозволяє створювати нові сторінки безпосередньо в цій категорії",
@@ -9,6 +10,8 @@
 	"articletocategory2-create-article-under-category-button": "Створити",
 	"articletocategory2-create-category-under-category-text": "Додати категорію до цієї категорії",
 	"articletocategory2-create-category-under-category-button": "Створити",
+	"action-ArticleToCategory2": "додавання сторінки до категорії",
 	"right-ArticleToCategory2": "Додати сторінку до категорії",
+	"action-ArticleToCategory2AddCat": "додавання категорії до категорії",
 	"right-ArticleToCategory2AddCat": "Додати категорію до категорії"
 }

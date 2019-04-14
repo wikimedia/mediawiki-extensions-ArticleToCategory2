@@ -9,6 +9,8 @@
 	"articletocategory2-create-article-under-category-button": "Создај",
 	"articletocategory2-create-category-under-category-text": "Додај категорија во категоријава",
 	"articletocategory2-create-category-under-category-button": "Создај",
+	"action-ArticleToCategory2": "додавате страници во категорија",
 	"right-ArticleToCategory2": "Ставање на статија во категорија",
+	"action-ArticleToCategory2AddCat": "додавате страници во категорија",
 	"right-ArticleToCategory2AddCat": "Ставање на категорија во категорија"
 }

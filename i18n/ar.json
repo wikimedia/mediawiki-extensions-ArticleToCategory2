@@ -3,7 +3,8 @@
 		"authors": [
 			"OsamaK",
 			"روخو",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"articletocategory2-desc": "يضع مربع إدخال على كل صفحة تصنيف يسمح بإنشاء صفحة جديدة مباشرة في ذلك التصنيف",
@@ -11,6 +12,8 @@
 	"articletocategory2-create-article-under-category-button": "أنشئ",
 	"articletocategory2-create-category-under-category-text": "إضافة تصنيف لهذا التصنيف",
 	"articletocategory2-create-category-under-category-button": "أنشئ",
+	"action-ArticleToCategory2": "إضافة صفحة إلى تصنيف",
 	"right-ArticleToCategory2": "إضافة الصفحة إلى تصنيف",
+	"action-ArticleToCategory2AddCat": "إضافة تصنيف إلى تصنيف",
 	"right-ArticleToCategory2AddCat": "إضافة تصنيف إلى تصنيف"
 }
