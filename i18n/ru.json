@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Vlad5250"
 		]
 	},
 	"articletocategory2-desc": "Размещает поле ввода на странице каждой категории, позволяющее создавать страницы непосредственно в этой категории",
@@ -9,6 +10,8 @@
 	"articletocategory2-create-article-under-category-button": "Создать",
 	"articletocategory2-create-category-under-category-text": "Добавить категорию в эту категорию",
 	"articletocategory2-create-category-under-category-button": "Создать",
+	"action-ArticleToCategory2": "добавление страницы в категорию",
 	"right-ArticleToCategory2": "Добавить статью в категорию",
+	"action-ArticleToCategory2AddCat": "добавление категории в категорию",
 	"right-ArticleToCategory2AddCat": "Добавить категорию в категорию"
 }

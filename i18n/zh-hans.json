@@ -4,7 +4,8 @@
 			"Hydra",
 			"Kuailong",
 			"Steven0127",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"佛壁灯"
 		]
 	},
 	"articletocategory2-desc": "将输入框放置在每个分类页面中，这样允许在对应分类直接创建新页面",
@@ -12,6 +13,8 @@
 	"articletocategory2-create-article-under-category-button": "创建",
 	"articletocategory2-create-category-under-category-text": "在此分类中添加分类",
 	"articletocategory2-create-category-under-category-button": "创建",
+	"action-ArticleToCategory2": "添加页面至分类",
 	"right-ArticleToCategory2": "将页面添加到分类",
+	"action-ArticleToCategory2AddCat": "添加分类至分类",
 	"right-ArticleToCategory2AddCat": "添加分类到分类"
 }
