@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Red Winged Duck"
 		]
 	},
 	"articletocategory2-desc": "Дадае акно ўводу ў кожную старонку катэгорыі, што дазваляе ствараць новыя старонкі непасрэдна ў гэтых катэгорыі",
@@ -10,6 +11,7 @@
 	"articletocategory2-create-article-under-category-button": "Стварыць",
 	"articletocategory2-create-category-under-category-text": "Дадаць катэгорыю ў гэтую старонку",
 	"articletocategory2-create-category-under-category-button": "Стварыць",
+	"action-ArticleToCategory2": "дадаваньне старонкі ў катэгорыю",
 	"right-ArticleToCategory2": "даданьне артыкулаў у катэгорыі",
 	"right-ArticleToCategory2AddCat": "даданьне катэгорыяў у катэгорыі"
 }
