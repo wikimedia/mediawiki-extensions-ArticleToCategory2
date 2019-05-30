@@ -9,6 +9,8 @@
 	"articletocategory2-create-article-under-category-button": "Crear",
 	"articletocategory2-create-category-under-category-text": "Añadir una categoría a esta categoría",
 	"articletocategory2-create-category-under-category-button": "Crear",
+	"action-ArticleToCategory2": "amestar páxina a categoría",
 	"right-ArticleToCategory2": "Amestar páxina a categoría",
+	"action-ArticleToCategory2AddCat": "amestar categoría a categoría",
 	"right-ArticleToCategory2AddCat": "Añadir una categoría a otra categoría"
 }
