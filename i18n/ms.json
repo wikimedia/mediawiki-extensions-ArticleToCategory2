@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Tofeiku"
 		]
 	},
 	"articletocategory2-desc": "Meletakkan peti input pada setiap laman kategori, membolehkan pembentukan laman baru secara terus ke dalam kategori itu",
@@ -9,6 +10,8 @@
 	"articletocategory2-create-article-under-category-button": "Cipta",
 	"articletocategory2-create-category-under-category-text": "Tambahkan kategori ke dalam kategori ini",
 	"articletocategory2-create-category-under-category-button": "Cipta",
+	"action-ArticleToCategory2": "tambah laman ke kategori",
 	"right-ArticleToCategory2": "Menambahkan laman kepada kategori",
+	"action-ArticleToCategory2AddCat": "tambah kategori ke kategori",
 	"right-ArticleToCategory2AddCat": "Menambahkan kategori kepada kategori"
 }
