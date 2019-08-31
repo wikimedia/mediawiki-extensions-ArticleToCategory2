@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"articletocategory2-desc": "Inclúe unha caixa de entrada en cada páxina de categoría para poder crear unha nova páxina directamente nesa categoría",
@@ -9,6 +10,8 @@
 	"articletocategory2-create-article-under-category-button": "Crear",
 	"articletocategory2-create-category-under-category-text": "Engadirlle unha categoría a esta categoría",
 	"articletocategory2-create-category-under-category-button": "Crear",
+	"action-ArticleToCategory2": "engadir páxina a categoría",
 	"right-ArticleToCategory2": "Engadir o artigo á categoría",
+	"action-ArticleToCategory2AddCat": "engadir categoría a categoría",
 	"right-ArticleToCategory2AddCat": "Engadir a categoría á categoría"
 }
