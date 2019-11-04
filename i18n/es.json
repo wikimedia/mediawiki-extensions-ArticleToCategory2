@@ -11,6 +11,8 @@
 	"articletocategory2-create-article-under-category-button": "Crear",
 	"articletocategory2-create-category-under-category-text": "Añadir una categoría a esta categoría",
 	"articletocategory2-create-category-under-category-button": "Crear",
+	"action-ArticleToCategory2": "añadir una página a una categoría",
 	"right-ArticleToCategory2": "Añadir página a categoría",
+	"action-ArticleToCategory2AddCat": "añadir una categoría a otra categoría",
 	"right-ArticleToCategory2AddCat": "Añadir categoría a otra"
 }
