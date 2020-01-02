@@ -1,0 +1,7 @@
+Code-Review+2: Siebrand <siebrand@kitano.nl>
+Verified+2: jenkins-bot
+Submitted-by: jenkins-bot
+Submitted-at: Thu, 02 Jan 2020 16:29:27 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/561612
+Project: mediawiki/extensions/ArticleToCategory2
+Branch: refs/heads/master
