@@ -5,7 +5,7 @@
  *
  * @param string $text The text to prefill edit form with
  * @return bool true
- ******************************/
+ */
 class ArticleToCategory2Hooks {
 	public static function wfAddCategory( &$text ) {
 		global $wgContLang;
@@ -84,7 +84,7 @@ class ArticleToCategory2Hooks {
 
 	$cattitle = $wgContLang->getNsText( NS_CATEGORY );
 
-	/*** javascript blocks ***/
+	/** javascript blocks */
 	$formstart = <<<FORMSTART
 <!-- Add Article Extension Start -->
 <script type="text/javascript">
@@ -142,7 +142,7 @@ FORMCATEGORY;
 </table>
 <!-- Add Article Extension End -->
 FORMEND;
-		/*** javascript blocks end ***/
+		/** javascript blocks end */
 		$wgOut->addHTML( $formstart );
 		if ( $wgUser->isAllowed( 'ArticleToCategory2AddCat' ) ) {
 			$wgOut->addHTML( $formcategory );
