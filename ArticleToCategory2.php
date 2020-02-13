@@ -8,7 +8,7 @@
  * @author Julien Devincre (exclude categories)
  * @author Cynthia Mattingly - Marketing Factory Consulting (i18n, adding category)
  * @author Mikael Lindmark <mikael.lindmark@umu.se> (category adding optional, input check)
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 3.0 or later
+ * @license GPL-3.0-or-later
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
