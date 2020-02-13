@@ -14,7 +14,7 @@
 		"MediaWiki": ">= 1.29.0"
 	},
 	"AutoloadClasses": {
-		"ArticleToCategory2Hooks": "ArticleToCategory2.hooks.php"
+		"ArticleToCategory2Hooks": "ArticleToCategory2Hooks.php"
 	},
 	"MessagesDirs": {
 		"ArticleToCategory2": [
