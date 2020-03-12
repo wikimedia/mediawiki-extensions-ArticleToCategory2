@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Add category to the new page
  * The category name is escaped to prevent JavaScript injection
@@ -64,11 +67,25 @@ class ArticleToCategory2Hooks {
 		global $wgArticleToCategory2ConfigBlacklist,
 			$wgOut, $wgScript, $wgContLang, $wgUser;
 			$action = htmlspecialchars( $wgScript );
-		if ( !$catpage->mTitle->quickUserCan( 'edit' )
-			|| !$catpage->mTitle->quickUserCan( 'create' )
-			|| !$wgUser->isAllowed( 'ArticleToCategory2' ) ) {
+
+		$title = $catpage->mTitle;
+		if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
+			// MW 1.33+
+			$permManager = MediaWikiServices::getInstance()->getPermissionManager();
+			if ( !$permManager->quickUserCan( 'edit', $wgUser, $title ) ||
+				!$permManagare->quickUserCan( 'create', $wgUser, $title ) ) {
+				return true;
+			}
+		} else {
+			if ( !$title->quickUserCan( 'edit' )
+				|| !$title->quickUserCan( 'create' ) ) {
+				return true;
+			}
+		}
+		if ( !$wgUser->isAllowed( 'ArticleToCategory2' ) ) {
 			return true;
 		}
+
 		if ( $wgArticleToCategory2ConfigBlacklist ) {
 			$excludedCategories = self::getExcludedCategories();
 			foreach ( $excludedCategories as $value ) {
