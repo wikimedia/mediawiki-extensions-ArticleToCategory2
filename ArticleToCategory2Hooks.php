@@ -74,7 +74,7 @@ class ArticleToCategory2Hooks {
 			// MW 1.33+
 			$permManager = MediaWikiServices::getInstance()->getPermissionManager();
 			if ( !$permManager->quickUserCan( 'edit', $wgUser, $title ) ||
-				!$permManagare->quickUserCan( 'create', $wgUser, $title ) ) {
+				!$permManager->quickUserCan( 'create', $wgUser, $title ) ) {
 				return true;
 			}
 		} else {
