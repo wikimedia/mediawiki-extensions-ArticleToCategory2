@@ -41,7 +41,7 @@ class ArticleToCategory2Hooks {
 		}
 		$rev = Revision::newFromTitle( Title::makeTitle( 8, $specialcatpage ) );
 		if ( $rev ) {
-			$content = $rev->getText();
+			$content = ContentHandler::getContentText( $rev->getContent() );
 			if ( $content != "" ) {
 				$changed = false;
 				$c = explode( "\n", $content );
