@@ -2,14 +2,15 @@
 
 use MediaWiki\MediaWikiServices;
 
-/**
- * Add category to the new page
- * The category name is escaped to prevent JavaScript injection
- *
- * @param string $text The text to prefill edit form with
- * @return bool true
- */
 class ArticleToCategory2Hooks {
+
+	/**
+	 * Add category to the new page
+	 * The category name is escaped to prevent JavaScript injection
+	 *
+	 * @param string &$text The text to prefill edit form with
+	 * @return bool true
+	 */
 	public static function wfAddCategory( &$text ) {
 		global $wgContLang;
 
