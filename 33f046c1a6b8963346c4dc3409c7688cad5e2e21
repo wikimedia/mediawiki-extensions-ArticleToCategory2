@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f570d436_3c22f86e",
+        "filename": ".phpcs.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4879
+      },
+      "writtenOn": "2021-04-11T16:28:41Z",
+      "side": 1,
+      "message": "\u003crule ref\u003d\"./vendor/mediawiki/mediawiki-codesniffer/MediaWiki\" /\u003e is enough. 😊",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 8
+      },
+      "revId": "33f046c1a6b8963346c4dc3409c7688cad5e2e21",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
