@@ -9,42 +9,42 @@ class ArticleToCategory2Hooks {
 	 * The category name is escaped to prevent JavaScript injection
 	 *
 	 * @param string &$text The text to prefill edit form with
-	 * @return bool true
+	 * @param Title &$title Title object representing the new page to be created
 	 */
-	public static function wfAddCategory( &$text ) {
-		global $wgContLang;
+	public static function onEditFormPreloadText( &$text, &$title ) {
+		$request = RequestContext::getMain()->getRequest();
 
-		if ( array_key_exists( 'category', $_GET ) && array_key_exists( 'new', $_GET ) ) {
-			$cname = $_GET['category'];
-			if ( $_GET['new'] == 1 ) {
-				$text = "\n\n[[" . $wgContLang->getNsText( NS_CATEGORY ) . ":" .
-						htmlspecialchars( $cname ) . "]]";
-			}
+		if ( $request->getVal( 'category' ) && $request->getInt( 'new' ) === 1 ) {
+			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
+			$text = "\n\n[[" . $contLang->getNsText( NS_CATEGORY ) . ':' .
+					htmlspecialchars( $request->getVal( 'category' ) ) . ']]';
 		}
-		return true;
 	}
 
 	/**
 	 * Function to get the excluded categories list (blacklist)
-	 * the list is retrieved from Add Article to Category 2 excluded categories page.
+	 * The list is retrieved from [[MediaWiki:Add Article to Category 2 excluded categories]] page.
 	 *
-	 * @return string $excludedCategories
+	 * @return array Array of excluded categories, if any
 	 */
 	public static function getExcludedCategories() {
-		global $wgRequest;
+		$request = RequestContext::getMain()->getRequest();
 
 		$excludedCategories = [];
 		$specialcatpage = 'Add Article to Category 2 excluded categories';
 
-		if ( $wgRequest->getVal( 'action' ) == 'edit' ) {
-			return true;
+		if ( $request->getVal( 'action' ) == 'edit' ) {
+			return $excludedCategories;
 		}
-		$rev = Revision::newFromTitle( Title::makeTitle( 8, $specialcatpage ) );
+
+		$rev = Revision::newFromTitle( Title::makeTitle( NS_MEDIAWIKI, $specialcatpage ) );
 		if ( $rev ) {
 			$content = ContentHandler::getContentText( $rev->getContent() );
-			if ( $content != "" ) {
+
+			if ( $content != '' ) {
 				$changed = false;
 				$c = explode( "\n", $content );
+
 				foreach ( $c as $entry ) {
 					if ( $entry[0] == ';' ) {
 						$cat = trim( substr( $entry, 1 ) );
@@ -52,120 +52,67 @@ class ArticleToCategory2Hooks {
 					}
 				}
 			}
-		} else {
-			echo ( " Page : \"" . $specialcatpage . "\" does not exist !" );
 		}
+
 		return $excludedCategories;
 	}
 
 	/**
 	 * Generate the input box
 	 *
-	 * @param string $catpage The category article
-	 * @return bool true to do the default behavior of CategoryPage::view
+	 * @param CategoryPage $catpage The category article
+	 * @return bool True to do the default behavior of CategoryPage::view
 	 */
-	public static function wfCategoryChange( $catpage ) {
-		global $wgArticleToCategory2ConfigBlacklist,
-			$wgOut, $wgScript, $wgContLang, $wgUser;
-			$action = htmlspecialchars( $wgScript );
+	public static function onCategoryPageView( $catpage ) {
+		global $wgArticleToCategory2ConfigBlacklist, $wgScript;
 
-		$title = $catpage->mTitle;
+		$context = $catpage->getContext();
+		$title = $catpage->getTitle();
+		$user = $context->getUser();
+
 		if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
 			// MW 1.33+
 			$permManager = MediaWikiServices::getInstance()->getPermissionManager();
-			if ( !$permManager->quickUserCan( 'edit', $wgUser, $title ) ||
-				!$permManager->quickUserCan( 'create', $wgUser, $title ) ) {
+			if ( !$permManager->quickUserCan( 'edit', $user, $title ) ||
+				!$permManager->quickUserCan( 'create', $user, $title ) ) {
 				return true;
 			}
 		} else {
-			if ( !$title->quickUserCan( 'edit' )
-				|| !$title->quickUserCan( 'create' ) ) {
+			if ( !$title->quickUserCan( 'edit' ) || !$title->quickUserCan( 'create' ) ) {
 				return true;
 			}
 		}
-		if ( !$wgUser->isAllowed( 'ArticleToCategory2' ) ) {
+
+		if ( !$user->isAllowed( 'ArticleToCategory2' ) ) {
 			return true;
 		}
 
 		if ( $wgArticleToCategory2ConfigBlacklist ) {
 			$excludedCategories = self::getExcludedCategories();
 			foreach ( $excludedCategories as $value ) {
-				if ( $catpage->mTitle->getText() == $value ) {
+				if ( $title->getText() == $value ) {
 					return true;
 				}
 			}
 		}
-	$boxtext  = wfMessage( 'articletocategory2-create-article-under-category-text' )->escaped();
-	$btext = wfMessage( 'articletocategory2-create-article-under-category-button' )->escaped();
-	$boxtext2 = wfMessage( 'articletocategory2-create-category-under-category-text' )->escaped();
-	$btext2 = wfMessage( 'articletocategory2-create-category-under-category-button' )->escaped();
 
-	$cattitle = $wgContLang->getNsText( NS_CATEGORY );
+		$templateParser = new TemplateParser( __DIR__ );
+		$form = $templateParser->processTemplate(
+			'add-category-form',
+			[
+				'action' => $wgScript,
+				'allowed' => $user->isAllowed( 'ArticleToCategory2AddCat' ),
+				'categoryName' => $title->getText(),
+				'boxText' => $context->msg( 'articletocategory2-create-article-under-category-text' )->text(),
+				'bText' => $context->msg( 'articletocategory2-create-article-under-category-button' )->text(),
+				'boxText2' => $context->msg( 'articletocategory2-create-category-under-category-text' )->text(),
+				'bText2' => $context->msg( 'articletocategory2-create-category-under-category-button' )->text()
+			]
+		);
 
-	/** javascript blocks */
-	$formstart = <<<FORMSTART
-<!-- Add Article Extension Start -->
-<script type="text/javascript">
-function clearText(thefield) {
-	if (thefield.defaultValue==thefield.value)
-		thefield.value = ""
-}
-function addText(thefield) {
-	if (thefield.value=="")
-		thefield.value = thefield.defaultValue
-}
+		$context->getOutput()->addModules( 'ext.articletocategory2' );
+		$context->getOutput()->addHTML( $form );
 
-function addTextTitle(thefield) {
-	if (thefield.value=="") {
-		thefield.value = thefield.defaultValue;
-	} else {
-		thefield.value = '{$cattitle}:'+thefield.value;
-	}
-}
-
-function isemptyx(form) {
-	if (form.title.value=="" || form.title.value==form.title.defaultValue) {
-		<!-- alert(.title.value); -->
-		return false;
-	}
-	return true;
-}
-</script>
-
-<table border="0" align="right" width="423" cellspacing="0" cellpadding="0">
-	<tr>
-	<td width="100%" align="right" bgcolor="">
-	<form name="createbox" action="{$action}" onsubmit="return isemptyx(this);" method="get" class="createbox">
-		<input type='hidden' name="action" value="edit">
-		<input type='hidden' name="new" value="1">
-		<input type='hidden' name="category" value="{$catpage->mTitle->getText()}">
-
-		<input class="createboxInput" name="title" type="text" value="{$boxtext}" size="38" style="color:#666;" onfocus="clearText(this);" onblur="addText(this);"/>
-		<input type='submit' name="create" class="createboxButton" value="{$btext}"/>
-	</form>
-FORMSTART;
-	$formcategory = <<<FORMCATEGORY
-	<form name="createbox" action="{$action}" onsubmit="return isemptyx(this);" method="get" class="createbox">
-		<input type='hidden' name="action" value="edit">
-		<input type='hidden' name="new" value="1">
-		<input type='hidden' name="category" value="{$catpage->mTitle->getText()}">
-
-		<input class="createboxInput" name="title" type="text" value="{$boxtext2}" size="38" style="color:#666;" onfocus="clearText(this);" onblur="addTextTitle(this);"/>
-		<input type='submit' name="create" class="createboxButton" value="{$btext2}"/>
-	</form>
-FORMCATEGORY;
-	$formend = <<<FORMEND
-	</td>
-	</tr>
-</table>
-<!-- Add Article Extension End -->
-FORMEND;
-		/** javascript blocks end */
-		$wgOut->addHTML( $formstart );
-		if ( $wgUser->isAllowed( 'ArticleToCategory2AddCat' ) ) {
-			$wgOut->addHTML( $formcategory );
-		}
-		$wgOut->addHTML( $formend );
 		return true;
 	}
 }

@@ -1,0 +1,26 @@
+<!-- Add Article Extension Start -->
+<table border="0" align="right" width="423" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="100%" align="right" bgcolor="">
+		<form name="createbox" action="{{action}}" method="get" class="createbox">
+			<input type="hidden" name="action" value="edit">
+			<input type="hidden" name="new" value="1">
+			<input type="hidden" name="category" value="{{categoryName}}">
+
+			<input class="createboxInput add-page-btn" name="title" type="text" value="{{boxText}}" size="38" style="color:#666;" />
+			<input type="submit" name="create" class="createboxButton" value="{{bText}}"/>
+		</form>
+		{{#allowed}}
+		<form name="createbox" action="{{action}}" method="get" class="createbox">
+			<input type="hidden" name="action" value="edit">
+			<input type="hidden" name="new" value="1">
+			<input type="hidden" name="category" value="{{categoryName}}">
+
+			<input class="createboxInput add-cat-btn" name="title" type="text" value="{{boxText2}}" size="38" style="color:#666;" />
+			<input type="submit" name="create" class="createboxButton" value="{{bText2}}"/>
+		</form>
+		{{/allowed}}
+		</td>
+	</tr>
+</table>
+<!-- Add Article Extension End -->
