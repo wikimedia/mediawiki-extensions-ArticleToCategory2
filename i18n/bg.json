@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
+			"StanProg",
 			"Vodnokon4e"
 		]
 	},
@@ -9,7 +10,7 @@
 	"articletocategory2-create-article-under-category-button": "Създаване",
 	"articletocategory2-create-category-under-category-text": "Добавяне на категория към тази категория",
 	"articletocategory2-create-category-under-category-button": "Създаване",
-	"action-ArticleToCategory2": "Добавяне на страница към категория",
+	"action-ArticleToCategory2": "добавяне на страница към категория",
 	"right-ArticleToCategory2": "Добавяне на страница към категория",
 	"action-ArticleToCategory2AddCat": "добавяне на категория към категория",
 	"right-ArticleToCategory2AddCat": "Добавяне на категория към категория"
