@@ -12,12 +12,11 @@ class ArticleToCategory2Hooks {
 	 * @return bool true
 	 */
 	public static function wfAddCategory( &$text ) {
-		global $wgContLang;
-
 		if ( array_key_exists( 'category', $_GET ) && array_key_exists( 'new', $_GET ) ) {
 			$cname = $_GET['category'];
 			if ( $_GET['new'] == 1 ) {
-				$text = "\n\n[[" . $wgContLang->getNsText( NS_CATEGORY ) . ":" .
+				$contentLanguage = MediaWikiServices::getInstance()->getContentLanguage();
+				$text = "\n\n[[" . $contentLanguage->getNsText( NS_CATEGORY ) . ":" .
 						htmlspecialchars( $cname ) . "]]";
 			}
 		}
@@ -66,7 +65,7 @@ class ArticleToCategory2Hooks {
 	 */
 	public static function wfCategoryChange( $catpage ) {
 		global $wgArticleToCategory2ConfigBlacklist,
-			$wgOut, $wgScript, $wgContLang, $wgUser;
+			$wgOut, $wgScript, $wgUser;
 			$action = htmlspecialchars( $wgScript );
 
 		$title = $catpage->mTitle;
@@ -100,7 +99,7 @@ class ArticleToCategory2Hooks {
 	$boxtext2 = wfMessage( 'articletocategory2-create-category-under-category-text' )->escaped();
 	$btext2 = wfMessage( 'articletocategory2-create-category-under-category-button' )->escaped();
 
-	$cattitle = $wgContLang->getNsText( NS_CATEGORY );
+	$cattitle = MediaWikiServices::getInstance()->getContentLanguage()->getNsText( NS_CATEGORY );
 
 	/** javascript blocks */
 	$formstart = <<<FORMSTART
