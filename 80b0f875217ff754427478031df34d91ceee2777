@@ -1,0 +1,7 @@
+Code-Review+2: Legoktm <legoktm@debian.org>
+Verified+2: jenkins-bot
+Submitted-by: jenkins-bot
+Submitted-at: Sat, 15 May 2021 11:09:01 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ArticleToCategory2/+/690430
+Project: mediawiki/extensions/ArticleToCategory2
+Branch: refs/heads/master
