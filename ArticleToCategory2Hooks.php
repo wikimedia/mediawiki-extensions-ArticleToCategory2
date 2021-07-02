@@ -68,7 +68,7 @@ class ArticleToCategory2Hooks {
 			$wgOut, $wgScript, $wgUser;
 			$action = htmlspecialchars( $wgScript );
 
-		$title = $catpage->mTitle;
+		$title = $catpage->getTitle();
 		if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
 			// MW 1.33+
 			$permManager = MediaWikiServices::getInstance()->getPermissionManager();
@@ -89,7 +89,7 @@ class ArticleToCategory2Hooks {
 		if ( $wgArticleToCategory2ConfigBlacklist ) {
 			$excludedCategories = self::getExcludedCategories();
 			foreach ( $excludedCategories as $value ) {
-				if ( $catpage->mTitle->getText() == $value ) {
+				if ( $title->getText() == $value ) {
 					return true;
 				}
 			}
@@ -137,7 +137,7 @@ function isemptyx(form) {
 	<form name="createbox" action="{$action}" onsubmit="return isemptyx(this);" method="get" class="createbox">
 		<input type='hidden' name="action" value="edit">
 		<input type='hidden' name="new" value="1">
-		<input type='hidden' name="category" value="{$catpage->mTitle->getText()}">
+		<input type='hidden' name="category" value="{$title->getText()}">
 
 		<input class="createboxInput" name="title" type="text" value="{$boxtext}" size="38" style="color:#666;" onfocus="clearText(this);" onblur="addText(this);"/>
 		<input type='submit' name="create" class="createboxButton" value="{$btext}"/>
@@ -147,7 +147,7 @@ FORMSTART;
 	<form name="createbox" action="{$action}" onsubmit="return isemptyx(this);" method="get" class="createbox">
 		<input type='hidden' name="action" value="edit">
 		<input type='hidden' name="new" value="1">
-		<input type='hidden' name="category" value="{$catpage->mTitle->getText()}">
+		<input type='hidden' name="category" value="{$title->getText()}">
 
 		<input class="createboxInput" name="title" type="text" value="{$boxtext2}" size="38" style="color:#666;" onfocus="clearText(this);" onblur="addTextTitle(this);"/>
 		<input type='submit' name="create" class="createboxButton" value="{$btext2}"/>
