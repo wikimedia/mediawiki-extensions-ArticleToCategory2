@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f6e7c05_34ed2abe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4879
+      },
+      "writtenOn": "2021-09-04T11:18:55Z",
+      "side": 1,
+      "message": "Already done in https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ArticleToCategory2/+/678398",
+      "revId": "94352c0d3a3b2023c0c331a19aea89b49ec09cd1",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
