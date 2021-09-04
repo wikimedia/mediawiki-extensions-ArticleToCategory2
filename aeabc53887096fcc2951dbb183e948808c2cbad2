@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f51f3ee_9ce9c7e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 243
+      },
+      "writtenOn": "2021-09-04T11:15:20Z",
+      "side": 1,
+      "message": "Being bold since this is an unmaintained extension (AFAIK) and my changes are an improvement over the status quo.",
+      "revId": "aeabc53887096fcc2951dbb183e948808c2cbad2",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
