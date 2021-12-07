@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"articletocategory2-create-article-under-category-text": "ხასჷლაშ ათე კატეგორიაშა გეძინა",
+	"articletocategory2-create-article-under-category-button": "გოჭყაფა",
+	"articletocategory2-create-category-under-category-text": "ათე კატეგორიაშ კატეგორიაშა გეძინა",
+	"articletocategory2-create-category-under-category-button": "გოჭყაფა",
+	"action-ArticleToCategory2": "ხასჷლაშ ჯატეგორიაშა გეძინა",
+	"right-ArticleToCategory2": "ხასჷლაშ გეძინა კატეგორიაშა",
+	"action-ArticleToCategory2AddCat": "კატეგორიაშ კატეგორიაშა გეძინა",
+	"right-ArticleToCategory2AddCat": "კატეგორიაშ კატეგორიაშა გეძინა"
+}
