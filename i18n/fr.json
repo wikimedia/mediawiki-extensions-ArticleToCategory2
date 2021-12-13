@@ -3,10 +3,11 @@
 		"authors": [
 			"Crochet.david",
 			"IAlex",
-			"Pols12"
+			"Pols12",
+			"Verdy p"
 		]
 	},
-	"articletocategory2-desc": "Ajoute une boîte d'entrée sur chaque page de catégorie permettant la création d'une nouvelle page directement dans cette catégorie",
+	"articletocategory2-desc": "Ajoute une boîte de saisie sur chaque page de catégorie permettant la création d’une nouvelle page directement dans cette catégorie",
 	"articletocategory2-create-article-under-category-text": "Ajouter une page à cette catégorie",
 	"articletocategory2-create-article-under-category-button": "Créer",
 	"articletocategory2-create-category-under-category-text": "Ajouter une catégorie à cette catégorie",
@@ -14,5 +15,5 @@
 	"action-ArticleToCategory2": "ajouter une page à une catégorie",
 	"right-ArticleToCategory2": "Ajouter la page à la catégorie",
 	"action-ArticleToCategory2AddCat": "ajouter une catégorie à une catégorie",
-	"right-ArticleToCategory2AddCat": "Ajouter une catégorie à cette catégorie"
+	"right-ArticleToCategory2AddCat": "Ajouter une catégorie à une catégorie"
 }

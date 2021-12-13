@@ -3,9 +3,11 @@
 		"authors": [
 			"Amirsara",
 			"FarsiNevis",
-			"Mjbmr"
+			"Mjbmr",
+			"Jeeputer"
 		]
 	},
+	"articletocategory2-desc": "یک جعبهٔ ورودی را در هر صفحهٔ رده قرار می‌دهد و امکان ایجاد یک صفحهٔ تازه و قرار دادن مستقیم آن در آن رده را فراهم می‌کند",
 	"articletocategory2-create-article-under-category-text": "افزودن صفحه‌ای به این رده",
 	"articletocategory2-create-article-under-category-button": "ایجاد",
 	"articletocategory2-create-category-under-category-text": "افزودن رده‌ای به این رده",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Farras",
-			"IvanLanin"
+			"IvanLanin",
+			"Daud I.F. Argana"
 		]
 	},
 	"articletocategory2-desc": "Meletakkan kotak masukan di setiap halaman kategori yang memungkinkan pembuatan halaman baru secara langsung ke kategori itu",
@@ -10,6 +11,8 @@
 	"articletocategory2-create-article-under-category-button": "Buat",
 	"articletocategory2-create-category-under-category-text": "Tambahkan kategori ke kategori ini",
 	"articletocategory2-create-category-under-category-button": "Buat",
+	"action-ArticleToCategory2": "menambahkan halaman ke kategori",
 	"right-ArticleToCategory2": "Tambahkan halaman ke dalam kategori",
+	"action-ArticleToCategory2AddCat": "menambahkan kategori ke kategori",
 	"right-ArticleToCategory2AddCat": "Tambahkan kategori ke dalam kategori"
 }
