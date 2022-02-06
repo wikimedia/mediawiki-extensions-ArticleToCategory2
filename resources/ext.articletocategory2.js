@@ -28,19 +28,19 @@
 	}
 
 	$( function () {
-		$( 'form[name="createbox"]' ).submit( function () {
+		$( 'form[name="createbox"]' ).on( 'submit', function () {
 			isEmptyX( this );
 		} );
 
-		$( '.createboxInput' ).focus( function () {
+		$( '.createboxInput' ).on( 'focus', function () {
 			clearText( this );
 		} );
 
-		$( '.add-page-btn' ).blur( function () {
+		$( '.add-page-btn' ).on( 'blur', function () {
 			addText( this );
 		} );
 
-		$( '.add-cat-btn' ).blur( function () {
+		$( '.add-cat-btn' ).on( 'blur', function () {
 			addTextTitle( this );
 		} );
 	} );
