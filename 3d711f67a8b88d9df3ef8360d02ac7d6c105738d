@@ -1,0 +1,8 @@
+Verified+1: Libraryupgrader <tools.libraryupgrader@tools.wmflabs.org>
+Verified+2: jenkins-bot
+Code-Review+2: Legoktm <legoktm@debian.org>
+Submitted-by: jenkins-bot
+Submitted-at: Sun, 06 Feb 2022 03:19:05 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ArticleToCategory2/+/760004
+Project: mediawiki/extensions/ArticleToCategory2
+Branch: refs/heads/master
