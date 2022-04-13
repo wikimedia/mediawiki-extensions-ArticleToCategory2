@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisportelli"
+			"Chrisportelli",
+			"ToniSant"
 		]
 	},
 	"articletocategory2-desc": "Iddaħħal ''inputbox'' f'kull kategorija li tippermetti l-ħolqien ta' paġna ġdida direttament fit-tali kategorija",
@@ -9,6 +10,7 @@
 	"articletocategory2-create-article-under-category-button": "Oħloq",
 	"articletocategory2-create-category-under-category-text": "Żid kategorija f'din il-kategorija",
 	"articletocategory2-create-category-under-category-button": "Oħloq",
+	"action-ArticleToCategory2": "daħħal il-paġna f'kategorija",
 	"right-ArticleToCategory2": "Iżid paġni f'kategorija",
 	"right-ArticleToCategory2AddCat": "Iżid kategoriji f'kategoriji"
 }
