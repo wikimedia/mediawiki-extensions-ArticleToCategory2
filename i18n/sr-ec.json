@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"Milicevic01"
 		]
 	},
 	"articletocategory2-create-article-under-category-text": "Додај страницу у ову категорију",
 	"articletocategory2-create-article-under-category-button": "Направи",
 	"articletocategory2-create-category-under-category-text": "Додај категорију у ову категорију",
-	"articletocategory2-create-category-under-category-button": "Направи"
+	"articletocategory2-create-category-under-category-button": "Направи",
+	"action-ArticleToCategory2": "додајете странице у категорије",
+	"right-ArticleToCategory2": "додавање страница у категорије",
+	"action-ArticleToCategory2AddCat": "додајете једну категорију у другу",
+	"right-ArticleToCategory2AddCat": "додавање једне категорије у другу"
 }
