@@ -5,5 +5,9 @@
 	"articletocategory2-create-article-under-category-text": "Dodaj stranicu u ovu kategoriju",
 	"articletocategory2-create-article-under-category-button": "Napravi",
 	"articletocategory2-create-category-under-category-text": "Dodaj kategoriju u ovu kategoriju",
-	"articletocategory2-create-category-under-category-button": "Napravi"
+	"articletocategory2-create-category-under-category-button": "Napravi",
+	"action-ArticleToCategory2": "dodajete stranice u kategorije",
+	"right-ArticleToCategory2": "dodavanje stranica u kategorije",
+	"action-ArticleToCategory2AddCat": "dodajete jednu kategoriju u drugu",
+	"right-ArticleToCategory2AddCat": "dodavanje jedne kategorije u drugu"
 }
