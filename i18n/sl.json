@@ -4,6 +4,13 @@
 			"Eleassar"
 		]
 	},
+	"articletocategory2-desc": "Na vsako stran kategorije postavi polje za vnos, kar omogoča ustvaritev nove strani neposredno v tej kategoriji",
+	"articletocategory2-create-article-under-category-text": "Dodaj stran v to kategorijo",
 	"articletocategory2-create-article-under-category-button": "Ustvari",
-	"articletocategory2-create-category-under-category-button": "Ustvari"
+	"articletocategory2-create-category-under-category-text": "Dodaj kategorijo v to kategorijo",
+	"articletocategory2-create-category-under-category-button": "Ustvari",
+	"action-ArticleToCategory2": "dodati stran v kategorijo",
+	"right-ArticleToCategory2": "Dodajanje strani v kategorijo",
+	"action-ArticleToCategory2AddCat": "dodajati kategorije v kategorijo",
+	"right-ArticleToCategory2AddCat": "Dodaj kategorijo v kategorijo"
 }
