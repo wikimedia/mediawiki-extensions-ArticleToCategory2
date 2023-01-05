@@ -11,8 +11,8 @@
 	"articletocategory2-create-article-under-category-button": "יצירה",
 	"articletocategory2-create-category-under-category-text": "הוספת קטגוריה לקטגוריה זו",
 	"articletocategory2-create-category-under-category-button": "יצירה",
-	"action-ArticleToCategory2": "הוספת עמוד לקטגוריה",
-	"right-ArticleToCategory2": "הוסף דף לקטגוריה",
-	"action-ArticleToCategory2AddCat": "הוספת קטגוריה לקטגוריה",
-	"right-ArticleToCategory2AddCat": "הוסף קטגוריה לקטגוריה"
+	"action-ArticleToCategory2": "להוסיף דף לקטגוריה",
+	"right-ArticleToCategory2": "הוספת דף לקטגוריה",
+	"action-ArticleToCategory2AddCat": "להוסיף קטגוריה לקטגוריה",
+	"right-ArticleToCategory2AddCat": "הוספת קטגוריה לקטגוריה"
 }
