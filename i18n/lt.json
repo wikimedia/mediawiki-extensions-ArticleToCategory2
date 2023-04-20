@@ -11,6 +11,8 @@
 	"articletocategory2-create-article-under-category-button": "Sukurti",
 	"articletocategory2-create-category-under-category-text": "Pridėti kategoriją į šią kategoriją",
 	"articletocategory2-create-category-under-category-button": "Sukurti",
+	"action-ArticleToCategory2": "pridėti puslapį prie kategorijos",
 	"right-ArticleToCategory2": "Pridėti puslapį į kategoriją",
+	"action-ArticleToCategory2AddCat": "pridėti kategoriją prie kategorijos",
 	"right-ArticleToCategory2AddCat": "Pridėti kategoriją į kategoriją"
 }
