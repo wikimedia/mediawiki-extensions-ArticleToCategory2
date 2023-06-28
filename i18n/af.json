@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Naudefj"
+			"Naudefj",
+			"Rooiratel"
 		]
 	},
 	"articletocategory2-desc": "Plaas 'n invoerboks op elke kategoriebladsy om 'n nuwe bladsy direk in die kategorie te kan skep",
 	"articletocategory2-create-article-under-category-text": "Voeg 'n bladsy by hierdie kategorie",
 	"articletocategory2-create-article-under-category-button": "Skep",
 	"articletocategory2-create-category-under-category-text": "Voeg 'n kategorie by hierdie kategorie",
-	"articletocategory2-create-category-under-category-button": "Skep"
+	"articletocategory2-create-category-under-category-button": "Skep",
+	"action-ArticleToCategory2": "voeg bladsy by kategorie",
+	"action-ArticleToCategory2AddCat": "voeg kategorie by kategorie",
+	"right-ArticleToCategory2AddCat": "Voeg kategorie by kategorie"
 }
