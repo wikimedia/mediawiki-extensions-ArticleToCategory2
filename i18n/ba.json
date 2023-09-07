@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Assele"
+			"Assele",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"articletocategory2-desc": "Һәр категория битендә туранан-тура ошо категорияла бит булдырырға мөмкинлек биреүсе мөхәррирләү юлы урынлаштыра.",
+	"articletocategory2-desc": "Һәр категория битендә туранан-тура ошо категорияла бит булдырыу мөмкинлеге биргән юл урынлаштыра.",
 	"articletocategory2-create-article-under-category-text": "Был категорияға бит өҫтәргә",
-	"articletocategory2-create-article-under-category-button": "Яһарға",
+	"articletocategory2-create-article-under-category-button": "Булдырырға",
 	"articletocategory2-create-category-under-category-text": "Был категорияға категория өҫтәргә",
-	"articletocategory2-create-category-under-category-button": "Яһарға",
+	"articletocategory2-create-category-under-category-button": "Булдырырға",
 	"right-ArticleToCategory2": "Битте категорияға өҫтәргә",
 	"right-ArticleToCategory2AddCat": "Категорияны категорияға өҫтәргә"
 }
