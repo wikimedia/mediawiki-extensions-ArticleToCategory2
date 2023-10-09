@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"articletocategory2-create-article-under-category-button": "Кхолла",
+	"articletocategory2-create-category-under-category-button": "Кхолла",
+	"action-ArticleToCategory2": "агӀо категорин чутохар",
+	"right-ArticleToCategory2": "Йаззам категорин чутоха",
+	"action-ArticleToCategory2AddCat": "категори категорин чутохар",
+	"right-ArticleToCategory2AddCat": "Категори категорин чутоха"
+}
