@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Rancher",
-			"Milicevic01"
+			"Milicevic01",
+			"Kizule"
 		]
 	},
+	"articletocategory2-desc": "Поставља поље за унос на сваку страницу категорије омогућавајући креирање нове странице директно у тој категорији",
 	"articletocategory2-create-article-under-category-text": "Додај страницу у ову категорију",
 	"articletocategory2-create-article-under-category-button": "Направи",
 	"articletocategory2-create-category-under-category-text": "Додај категорију у ову категорију",
