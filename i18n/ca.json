@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Solde"
+			"Solde",
+			"SMP"
 		]
 	},
 	"articletocategory2-desc": "Posa una caixa de text en cada pàgina de la categoria que permeti la creació d'una nova pàgina directament en aquesta categoria",
@@ -9,6 +10,7 @@
 	"articletocategory2-create-article-under-category-button": "Crear",
 	"articletocategory2-create-category-under-category-text": "Afegir una categoria en aquesta categoria",
 	"articletocategory2-create-category-under-category-button": "Crear",
-	"right-ArticleToCategory2": "Afegeix la pàgina a la categoria",
+	"action-ArticleToCategory2": "afegir la pàgina a la categoria",
+	"right-ArticleToCategory2": "Afegir la pàgina a la categoria",
 	"right-ArticleToCategory2AddCat": "Afegir una categoria a una categoria"
 }
