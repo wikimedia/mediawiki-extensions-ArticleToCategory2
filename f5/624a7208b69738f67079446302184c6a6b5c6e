@@ -1,0 +1,7 @@
+Code-Review+2: L10n-bot <l10n-bot@translatewiki.net>
+Verified+2: jenkins-bot
+Submitted-by: jenkins-bot
+Submitted-at: Wed, 10 Jan 2024 06:44:55 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ArticleToCategory2/+/989277
+Project: mediawiki/extensions/ArticleToCategory2
+Branch: refs/heads/REL1_41
