@@ -1,0 +1,7 @@
+Verified+2: jenkins-bot
+Code-Review+2: Libraryupgrader <tools.libraryupgrader@tools.wmflabs.org>
+Submitted-by: jenkins-bot
+Submitted-at: Fri, 19 Apr 2024 16:12:35 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ArticleToCategory2/+/1022063
+Project: mediawiki/extensions/ArticleToCategory2
+Branch: refs/heads/master
