@@ -37,7 +37,7 @@ class ArticleToCategory2Hooks {
 			return $excludedCategories;
 		}
 
-		$rev = Revision::newFromTitle( Title::makeTitle( NS_MEDIAWIKI, $specialcatpage ) );
+		$rev = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionByTitle( Title::makeTitle( NS_MEDIAWIKI, $specialcatpage ) );
 		if ( $rev ) {
 			$content = ContentHandler::getContentText( $rev->getContent() );
 
