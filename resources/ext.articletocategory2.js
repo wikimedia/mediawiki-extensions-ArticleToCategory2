@@ -27,7 +27,7 @@
 		return true;
 	}
 
-	$( function () {
+	$( () => {
 		$( 'form[name="createbox"]' ).on( 'submit', function () {
 			isEmptyX( this );
 		} );
