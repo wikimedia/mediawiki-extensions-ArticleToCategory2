@@ -1,6 +1,8 @@
 <?php
 
+use MediaWiki\Html\TemplateParser;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 class ArticleToCategory2Hooks {
 
