@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"articletocategory2-desc": "प्रत्येक श्रेणी पृष्ठमा एउटा इनपुटबक्स राख्छ जसले त्यस श्रेणीमा सिधै नयाँ पृष्ठ सिर्जना गर्न अनुमति दिन्छ",
+	"articletocategory2-create-article-under-category-text": "यस श्रेणीमा एउटा पृष्ठ थप्नुहोस्",
+	"articletocategory2-create-article-under-category-button": "सृजना गर्नुहोस्",
+	"articletocategory2-create-category-under-category-text": "यस श्रेणीमा एउटा श्रेणी थप्नुहोस्",
+	"articletocategory2-create-category-under-category-button": "सृजना गर्नुहोस्",
+	"action-ArticleToCategory2": "श्रेणीमा पृष्ठ थप्नुहोस्",
+	"right-ArticleToCategory2": "श्रेणीमा पृष्ठ थप्नुहोस्",
+	"action-ArticleToCategory2AddCat": "श्रेणीमा श्रेणी थप्नुहोस्",
+	"right-ArticleToCategory2AddCat": "श्रेणीमा श्रेणी थप्नुहोस्"
+}
