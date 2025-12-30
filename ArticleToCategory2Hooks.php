@@ -40,7 +40,8 @@ class ArticleToCategory2Hooks {
 		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
 		$rev = $revisionLookup->getRevisionByTitle( Title::makeTitle( NS_MEDIAWIKI, $specialcatpage ) );
 		if ( $rev ) {
-			$content = ContentHandler::getContentText( $rev->getContent() );
+			$revContent = $rev->getContent();
+			$content = $revContent instanceof TextContent ? $revContent->getText() : '';
 
 			if ( $content != '' ) {
 				$changed = false;
