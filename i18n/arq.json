@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"articletocategory2-desc": "يحط صندوق إدخال في كل صفحة تصنيف باش يسمح بإنشاء صفحة جديدة مباشرة في هاد التصنيف.",
+	"articletocategory2-create-article-under-category-text": "زيد صفحة لهاد التصنيف",
+	"articletocategory2-create-article-under-category-button": "أصنع",
+	"articletocategory2-create-category-under-category-text": "زيد تصنيف لهاد التصنيف",
+	"articletocategory2-create-category-under-category-button": "أصنع",
+	"action-ArticleToCategory2": "زيد صفحة للتصنيف",
+	"right-ArticleToCategory2": "إضافة الصفحة إلى تصنيف",
+	"action-ArticleToCategory2AddCat": "زيد تصنيف للتصنيف",
+	"right-ArticleToCategory2AddCat": "زيد تصنيف للتصنيف"
+}
