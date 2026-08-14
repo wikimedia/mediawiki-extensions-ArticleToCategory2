@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"articletocategory2-desc": "د هرې وېشنيزې مخ ته يو ننوتون‌بکس اچوي چې نېغ په نېغه په هغه وېشنيزه کې د مخ جوړولو ته اجازه ورکوي",
+	"articletocategory2-create-article-under-category-text": "دې وېشنيزې ته يو مخ ورگډول",
 	"articletocategory2-create-article-under-category-button": "جوړول",
-	"articletocategory2-create-category-under-category-button": "جوړول"
+	"articletocategory2-create-category-under-category-text": "دې وېشنيزې ته يو وېشنيزه ورگډول",
+	"articletocategory2-create-category-under-category-button": "جوړول",
+	"action-ArticleToCategory2": "وېشنيزې ته مخ ورگډول",
+	"right-ArticleToCategory2": "وېشنيزې ته مخ ورگډول",
+	"action-ArticleToCategory2AddCat": "وېشنيزې ته وېشنيزه ورگډول",
+	"right-ArticleToCategory2AddCat": "وېشنيزې ته وېشنيزه ورگډول"
 }
