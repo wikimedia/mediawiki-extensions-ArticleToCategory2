@@ -9,5 +9,8 @@
 	"articletocategory2-create-article-under-category-button": "Abuur",
 	"articletocategory2-create-category-under-category-text": "Ku dar qayb qaybtan",
 	"articletocategory2-create-category-under-category-button": "Abuur",
-	"action-ArticleToCategory2": "ku dar bogga qaybta"
+	"action-ArticleToCategory2": "ku dar bogga qaybta",
+	"right-ArticleToCategory2": "Ku dar bogga qaybta",
+	"action-ArticleToCategory2AddCat": "ku dar bogga qaybta",
+	"right-ArticleToCategory2AddCat": "Ku dar qayb qaybta"
 }
