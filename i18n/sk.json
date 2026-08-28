@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"articletocategory2-desc": "Umiestňuje na každú stránku kategórie vstupné pole umožňujúce vytvoriť novú stránku priamo v danej kategórii",
+	"articletocategory2-create-article-under-category-text": "Pridať stránku do tejto kategórie",
+	"articletocategory2-create-article-under-category-button": "Vytvoriť",
+	"articletocategory2-create-category-under-category-text": "Pridať kategóriu do tejto kategórie",
+	"articletocategory2-create-category-under-category-button": "Vytvoriť",
+	"action-ArticleToCategory2": "pridať stránku do kategórie",
+	"right-ArticleToCategory2": "Pridať stránku do kategórie",
+	"action-ArticleToCategory2AddCat": "pridať kategóriu do kategórie",
+	"right-ArticleToCategory2AddCat": "Pridať kategóriu do kategórie"
+}
